@@ -1,0 +1,194 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol,
+ul {
+	list-style: none;
+}
+blockquote,
+q {
+	quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+/* end reset */
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600&display=swap');
+
+body {
+	background-color: #767676;
+}
+
+li {
+	color: black;
+	text-decoration: none;
+}
+#navbar {
+	background-color: lightsteelblue;
+	height: 5em;
+	position: absolute;
+	width: 100%;
+	padding: 0;
+	border: 0;
+}
+.nav-link {
+	display: inline;
+	align-items: stretch;
+}
+
+#welcome-section {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: 767676;
+	padding-top: 5em;
+	height: 75vh;
+	width: 100%;
+}
+Img {
+	display: flex;
+	height: 250px;
+	width: auto;
+}
+#about {
+	display: block;
+}
+#projects {
+	background-color: #704f4f;
+	height: 100%;
+	width: 100%;
+	padding-bottom: 200px;
+	border-color: black;
+	border: 10px;
+}
+.project-tile {
+	position: center;
+	width: 200px;
+	height: 200px;
+	top: 30px;
+	left: 50px;
+	padding: 20px;
+	background-color: #f0f0f0;
+	border: 1px;
+	border-radius: 8px;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 150px;
+	background-color: maroon;
+}
+#social {
+	display: flex;
+	align-items: center;
+}
