@@ -1,39 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Personal Portfolio</title>
-</head>
-    <body>
-        <nav id="navbar">
-            <ul>
-                <li class="nav-link"><a href=""></a>Welcome</li>
-                <li class="nav-link"><a href=""></a>Projects</li>
-                <li class="nav-link"><a href=""></a>Contact</li>
-            </ul>
-        </nav>
-        <section id="welcome-section">
-    
-            <div><img src="https://images.unsplash.com/photo-1511367461989-f85a21fda167?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80" alt="I'm blue headshot"></div>
-            <div id="about"><p>Hi! Josh, a Pacific Northwest Designer, coder and Photographer. </p></div>
-        </section>
-        <Section id="projects">
-            <div class="projects-grid">
-                <a
-                  href="https://codepen.io/freeCodeCamp/full/zNqgVx"
-                  target="_blank"
-                  class="project project-tile"
-                >
-                </Section>
-        
 
-        <footer>
-            <li id="social"><a href=""></a>github link goes here</li>
-            <li id="social"><a href=""></a>links goes here</li>
-            <li id="social"><a href=""></a>links goes here</li>   
-            <li id="social"><a href=""></a>links goes here</li>
-        </footer>
-    </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/6212deef1b.js" crossorigin="anonymous"></script>
+  <title>Personal Portfolio</title>
+</head>
+
+<body>
+  <nav id="navbar">
+    <ul class="nav-list">
+      <li><a href="#projects"></a>Welcome</li>
+      <li><a href=""></a>Projects</li>
+      <li><a href=""></a>Contact</li>
+    </ul>
+  </nav>
+
+  <section id="welcome-section">
+    <div >
+      <img id="headshot" src="https://images.unsplash.com/photo-1511367461989-f85a21fda167?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80" alt="I'm blue headshot"></div>
+    <div id="about">
+      <h1 class="name-intro">Hi! Josh, a Pacific Northwest Designer, Programmer and Photographer. </h1>
+    </div>
+  </section>
+
+  <section id="projects" class="projects-section">
+    <div>
+      <h2 class="projects-section-header">These are some of my projects</h2>
+    </div>
+  
+    <div class="projects-grid">
+        <a href="https://codepen.io/jperkins2376/full/poyMyMj" target="_blank" class="project-project-tile" ></a>
+        <img class="project-image" src="https://lh3.googleusercontent.com/QOqQpc-CrQpPlB08TLMGJB3AZ3-usrLIjfgpII-KuiGpWHElIc-0ESAOY7c6Ld1JzDxKBDZCzpBx4iPar2AWXa1SERaoWTMc_c-gGFMzq0gjXhtP6HWdGrP2dR0cEmXGrdIljrQ-go0=w2400" alt="project" />
+        <p class="tile-about">Tribute Page</p>
+    </div>   
+
+    <div class="projects-grid">
+        <img class="project-image" src="https://lh3.googleusercontent.com/MHJiRo6rC-2nj1fXY48RTZqM6Ngg8mPN9raMliXrNY3vRwREINuQkM6NoImRa6hkEEyKLoRQg_JbyL7N-CpBoBTT5d2x1CWRBi92-3w66RxXTX1nnqKnG20JaB-K38ifBmO3wKLCBPY=w2400" alt="project" />
+        <a href="https://codepen.io/jperkins2376/full/MWeJQYX" target="_blank" class="project-project-tile" ><p class="tile-about">Product Page</p></a>
+    </div>  
+
+    <div class="projects-grid">
+        <a href="https://codepen.io/jperkins2376/full/bGeJWEW" target="_blank" class="project-project-tile" ></a>
+        <img class="project-image" src="https://lh3.googleusercontent.com/r6OteWqyv_NhUX9SSRL5ljZ47rYN1BVvDz5-K050_MqI1mOZhpPTFoCGx1We4Xcrs082xvlV6hZcrYXEcEGmadFFbo2n_JnFBrx15KHsSOoYnDnwcH0il6qR1ojdb9ThhnsD9F6pvXA=w2400" alt="project" />
+        <a href="https://codepen.io/jperkins2376/full/bGeJWEW" target="_blank" class="project-project-tile" ><p class="tile-about">Documentation Page</p></a>
+    </div>  
+
+    </section>     
+
+  <footer>
+    <li class="footer-link"><i class="fab fa-github-square"></i><a id="profile-link" target="_blank" href="https://github.com/jperkins2376">Github</a></li>
+     </footer>
+
+</body>
+
 </html>
