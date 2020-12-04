@@ -113,13 +113,7 @@ blockquote,
 q {
   quotes: none;
 }
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none;
-}
+
 
 /* end reset */
 
@@ -127,7 +121,7 @@ q:after {
 
 @media (hover: hover) {
   a:hover {
-    background: yellow;
+    background: rgba(240, 218, 218, 0.45);
   }
 }
 
@@ -138,7 +132,7 @@ q:after {
   background-image: linear-gradient(to right, #15152e, #1f417f);
   color: blanchedalmond;
   position: fixed;
-   z-index: 9;
+  z-index: 9;
 }
 
 .nav-list {
@@ -149,7 +143,8 @@ q:after {
   padding-top: 55px;
 }
 
-li {
+li a {
+  color: black;
   list-style: none;
   text-decoration: none;
   padding-right: 50px;
@@ -175,11 +170,10 @@ li {
 }
 
 h2 {
-   color: black;
+  color: black;
   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
-  
 }
 .name-intro {
   display: flex;
