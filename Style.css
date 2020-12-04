@@ -79,12 +79,12 @@ time,
 mark,
 audio,
 video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -98,152 +98,160 @@ hgroup,
 menu,
 nav,
 section {
-	display: block;
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
+  background-color: #767676;
+  font-family: "heebo", sans-serif;
 }
 ol,
 ul {
-	list-style: none;
+  list-style: none;
 }
 blockquote,
 q {
-	quotes: none;
+  quotes: none;
 }
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-	content: '';
-	content: none;
+  content: "";
+  content: none;
 }
 
 /* end reset */
 
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500&display=swap');
-body {
-	background-color: #767676;
-	font-family: 'heebo', sans-serif;
-}
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500&display=swap");
+
 @media (hover: hover) {
-	a:hover {
-		background: yellow;
-	}
+  a:hover {
+    background: yellow;
+  }
 }
 
 #navbar {
-	height: 100px;
-	width: 100%;
-	background-color: #767676; /* For browsers that do not support gradients */
-	background-image: linear-gradient(to right, #15152e, #1f417f);
-	color: blanchedalmond;
-	position: fixed;
+  height: 100px;
+  width: 100%;
+  background-color: #767676; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #15152e, #1f417f);
+  color: blanchedalmond;
+  position: fixed;
+   z-index: 9;
 }
 
 .nav-list {
-	display: flex;
-	margin-right: 1rem;
-	align-items: center;
-	justify-content: center;
-	padding-top: 55px;
+  display: flex;
+  margin-right: 1rem;
+  align-items: center;
+  justify-content: center;
+  padding-top: 55px;
 }
 
 li {
-	list-style: none;
-	text-decoration: none;
-	padding-right: 50px;
-	font-family: 'Heebo', sans-serif;
-	font-size: 30px;
-	font-weight: 300;
+  list-style: none;
+  text-decoration: none;
+  padding-right: 50px;
+  font-family: "Heebo", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
 }
 
 #welcome-section {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	background-color: #767676;
-	height: 100vh;
-	width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #767676;
+  height: 100vh;
+  width: auto;
 }
 
 #headshot {
-	height: 200px;
-	width: auto;
-	padding-top: 60px;
+  height: 200px;
+  width: auto;
+  padding-top: 60px;
+}
+
+h2 {
+   color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  
 }
 .name-intro {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	font-weight: 400;
-	font-size: 25px;
-	padding-top: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 25px;
+  padding-top: 35px;
 }
 .projects-section {
-	background-color: rgb(43, 52, 107);
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center space-between;
-	width: 100%;
-	height: auto;
-	margin-bottom: 100px;
+  background-color: rgb(43, 52, 107);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center space-between;
+  width: 100%;
+  height: auto;
+  margin-bottom: 100px;
 }
 
 .projects-section-header {
-	font-family: Heebo, sans-serif;
-	font-size: 40px;
-	display: block;
-	position: relative;
-	margin-bottom: 75px;
-	padding-top: 50px;
+  font-family: Heebo, sans-serif;
+  font-size: 40px;
+  display: block;
+  position: relative;
+  margin-bottom: 75px;
+  padding-top: 50px;
 }
 
 .projects-grid {
-	display: inline-block;
-	background-color: black;
-	border: 10px solid #000000;
-	margin-bottom: 75px;
+  display: inline-block;
+  background-color: black;
+  border: 10px solid #000000;
+  margin-bottom: 75px;
 }
 
 .project-image {
-	height: 350px;
-	width: auto;
+  height: 350px;
+  width: auto;
 }
 .tile-about {
-	background-color: black;
-	color: blanchedalmond;
-	font-size: 20px;
-	font-weight: 500;
+  background-color: black;
+  color: blanchedalmond;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .footer {
-	background-color: rgb(135, 167, 167);
-	height: 100px;
-	width: 100vw;
-	padding-right: 50px;
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	padding: 1rem;
+  background-color: rgb(135, 167, 167);
+  height: 100px;
+  width: 100vw;
+  padding-right: 50px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
 }
 
 .footer-link {
-	text-decoration: none;
-	display: flex;
-	margin-right: 1rem;
-	align-items: center;
-	justify-content: center;
-	font-family: 'Heebo', sans-serif;
-	font-size: 20px;
-	font-weight: 300;
-	margin-bottom: 75px;
+  text-decoration: none;
+  display: flex;
+  margin-right: 1rem;
+  align-items: center;
+  justify-content: center;
+  font-family: "Heebo", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 75px;
 }
 
 #profile-link {
-	color: blanchedalmond;
-	list-style: none;
+  color: blanchedalmond;
+  list-style: none;
 }
